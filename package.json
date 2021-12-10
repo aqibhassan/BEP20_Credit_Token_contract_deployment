@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "truffle": "^5.4.13",
+    "truffle-flattener": "^1.5.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@openzeppelin/truffle-upgrades": "^1.9.1",
+    "sol-merger": "^3.1.0",
+    "truffle-plugin-verify": "^0.5.15"
+  },
+  "scripts": {
+    "build-contracts": "sol-merger \"./contracts/*.sol\" ./build"
+  }
+}
